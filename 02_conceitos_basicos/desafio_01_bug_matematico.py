@@ -20,5 +20,7 @@ SUA MISSÃO:
 # print("A média do aluno é:", media)
 
 # TODO: Escreva aqui o código corrigido:
-nota_1 = input("digite a primeira nota")
-nota_2 = input("digite a nota 2")
+nota_1 = float(input("digite a primeira nota: "))
+nota_2 = float(input("digite a nota 2: "))
+media = (nota_1 + nota_2 ) /2
+print(f"A média do aluno é: {media}")
