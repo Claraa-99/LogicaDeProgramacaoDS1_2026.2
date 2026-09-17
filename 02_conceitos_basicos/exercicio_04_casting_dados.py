@@ -10,3 +10,8 @@ Imprima a idade calculada com uma mensagem personalizada.
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+nome = str(input("Qual o ano de nascimento?"))
+ano_inteiro = int(nome)
+ano = int(2026)
+idade = ano - ano_inteiro
+print(f"Olá, sua idade é de {idade}")
