@@ -12,7 +12,7 @@ Crie um programa que:
 # TODO: Desenvolva o algoritmo abaixo:
 
 valor_consumido = float(input("Qual o valor consumido? "))
-taxa_servico = float(0.1)
-valor_final = (valor_consumido * taxa_servico) + taxa_servico
+taxa_servico = 0.1
+valor_final = valor_consumido * 0.1
 
-print(f"O valor a ser pago é de {valor_final:}!")
+print(f"O valor a ser pago é de {valor_final}!")
