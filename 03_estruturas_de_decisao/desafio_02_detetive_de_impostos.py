@@ -22,11 +22,13 @@ SUA MISSÃO:
 
 # TODO: Escreva aqui a versão corrigida:
 # CÓDIGO ORIGINAL COM FALHA LÓGICA:
-faturamento = float(input("Informe o faturamento anual: "))
-if faturamento > 0:
-    taxa = faturamento * 0.5
+faturamento = float(input(f"Informe o faturamento anual: "))
+if faturamento > 100000:
+    taxa = faturamento * 0.15
 elif faturamento > 50000:
-    taxa = faturamento * 1.0
-elif faturamento > 100000:
-    taxa = faturamento * 1.5
+    taxa = faturamento * 0.1
+elif faturamento > 0:
+    taxa = faturamento * 0.05
+else:
+    taxa = faturamento*0
 print(f"A taxa é de {taxa: .2f}")

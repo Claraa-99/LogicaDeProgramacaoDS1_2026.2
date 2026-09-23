@@ -14,3 +14,21 @@ Imprima: novo salário, valor do reajuste ganho e percentual aplicado.
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+salario = float(input(f"Qual o seu salário? "))
+if salario <= 400: 
+    percentual = 1.5
+elif salario <= 800:
+   percentual = 1.2
+elif salario <= 1200:
+    percentual = 1.0
+elif salario <= 2000:
+    percentual = 0.07
+else :
+    percentual= 0.04
+
+reajuste = salario * percentual
+novo_salario = reajuste + salario
+
+print(f"O novo salário é de {novo_salario}!")
+print(f"O valor do reajuste é de {reajuste}!")
+print(f"O percentual é de {percentual * 10}%!")

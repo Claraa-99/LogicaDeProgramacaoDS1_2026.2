@@ -15,3 +15,28 @@ Calcule e mostre o total a pagar.
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+codigo_opcao = int(input(f"Escolha um opção (entre 01 e 05): "))
+quantidade = int(input(f"Qual a quantidade consumida? "))
+match codigo_opcao:
+    case 1: 
+        valor_final = 4.0 * quantidade
+        print(f"O valor a pagar é de {valor_final: .2f}")
+
+    case 2:
+        valor_final= 4.5 * quantidade
+        print(f"O valor a pagar é de {valor_final: .2f}")
+
+    case 3:
+        valor_final= 5.0 * quantidade
+        print(f"O valor a pagar é de {valor_final: .2f}")
+
+    case 4:
+        valor_final = 2.0 * quantidade  
+        print(f"O valor a pagar é de {valor_final: .2f}")
+
+    case 5:
+        valor_final = 1.5 * quantidade
+        print(f"O valor a pagar é de {valor_final: .2f}")
+
+    case _:
+        print("Opção indisponível!")
