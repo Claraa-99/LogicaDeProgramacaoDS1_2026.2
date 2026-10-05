@@ -1,6 +1,6 @@
 """
 EXERCÍCIO 04: Cardápio da Lanchonete
-Disciplina: Lógica de Programação com Python
+Disciplina: Lógica de Programação com Python.
 
 TABELA:
 1 - Cachorro Quente: R$ 4.00
