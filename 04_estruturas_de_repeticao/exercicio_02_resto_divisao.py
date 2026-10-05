@@ -9,3 +9,14 @@ cujo resto da divisão por 5 seja igual a 2 ou igual a 3.
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+X = int(input(f"Digite o número 01: "))
+Y = int(input(f"Digite o número 02: "))
+
+if X<Y:
+    for numero in range(X, Y +1):
+        if numero % 5 == 2 or numero % 5 == 3:
+            print(f"Os números com divisão = 3 ou = 2 são {numero}")
+else:
+    for numero in range(Y, X +1):
+        if numero % 5 == 2 or numero % 5 == 3:
+            print(f"Os números com divisão = 3 ou = 2 são {numero}")

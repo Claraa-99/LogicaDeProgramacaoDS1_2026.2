@@ -9,7 +9,6 @@ SUA MISSÃO:
 1. Identifique por que o laço não encerra.
 2. Aplique o comando adequado de quebra de fluxo (break).
 """
-
 # CÓDIGO ORIGINAL COM LOOP INFINITO:
 # senha_correta = "2002"
 # while True:
@@ -20,3 +19,15 @@ SUA MISSÃO:
 #         print("Senha Invalida")
 
 # TODO: Escreva aqui a versão corrigida:
+
+senha_correta = "2002"
+
+while True:
+    tentativa = input("Digite a senha de acesso: ")
+    if tentativa == senha_correta:
+        print("Correto")
+        break
+    else:
+        print("Errada")
+        
+
