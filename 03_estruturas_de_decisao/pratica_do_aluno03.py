@@ -8,6 +8,7 @@ Opção 3: Devolver livro
 opcao = int(input("Digite a opção desejada (1, 2 ou 3): "))
 
 
+
 match opcao:
     case 1:
         print("Consultar livro.")
