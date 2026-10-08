@@ -6,3 +6,4 @@ frequencia_final = frequencia >=75
 
 resultado = media_final and frequencia_final
 print(f"O aluno passou de ano? {resultado}")
+
