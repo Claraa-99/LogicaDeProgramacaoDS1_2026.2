@@ -1,6 +1,6 @@
 """
 EXERCÍCIO 02: Consumo da Kawasaki Versys 300
-Disciplina: Lógica de Programação com Python
+Disciplina: Lógica de Programação com Python.
 
 ENUNCIADO:
 Para planejar uma viagem técnica de Tianguá até o Beach Park (Aquiraz),
