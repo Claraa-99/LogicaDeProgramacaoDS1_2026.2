@@ -10,7 +10,7 @@ e precedência de operadores.
 
 SUA MISSÃO:
 1. Identifique e corrija os erros de tipagem (casting) e precedência.
-2. Faça o programa calcular e exibir a média correta formatada com 1 casa decimal
+2. Faça o programa calcular e exibir a média correta formatada com 1 casa decimal.
 """
 
 # CÓDIGO ORIGINAL COM BUG (Analise e corrija):

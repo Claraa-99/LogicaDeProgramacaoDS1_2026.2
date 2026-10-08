@@ -7,6 +7,5 @@
 valor_da_conta = float(input("digite o valor da conta:"))
 quant_pessoas = int(input("digite o numero de pessoas:"))
 
-
 valor_por_pessoa = valor_da_conta / quant_pessoas
 print(f"Olá, cada pessoa irá pagar {valor_por_pessoa: .2f}")

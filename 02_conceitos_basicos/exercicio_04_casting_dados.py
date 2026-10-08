@@ -1,6 +1,6 @@
 """
 EXERCÍCIO 04: Casting de Dados e Idade em 2026
-Disciplina: Lógica de Programação com Python
+Disciplina: Lógica de Programação com Python.
 
 ENUNCIADO:
 Receba do usuário o ano de nascimento como texto (str).

@@ -1,6 +1,6 @@
 """
 EXERCÍCIO 03: Conta do Nagoya Sushi House
-Disciplina: Lógica de Programação com Python
+Disciplina: Lógica de Programação com Python.
 
 ENUNCIADO:
 Crie um programa que:

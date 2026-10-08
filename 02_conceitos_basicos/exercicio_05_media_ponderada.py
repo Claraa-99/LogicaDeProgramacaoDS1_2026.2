@@ -1,6 +1,6 @@
 """
 EXERCÍCIO 05: Média Ponderada da Avaliação Técnica
-Disciplina: Lógica de Programação com Python
+Disciplina: Lógica de Programação com Python.
 
 ENUNCIADO:
 Solicite as notas de três avaliações do curso técnico.

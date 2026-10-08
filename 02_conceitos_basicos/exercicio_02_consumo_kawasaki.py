@@ -1,5 +1,5 @@
 """
-EXERCÍCIO 02: Consumo da Kawasaki Versys 300
+EXERCÍCIO 02: Consumo da Kawasaki Versys 300.
 Disciplina: Lógica de Programação com Python.
 
 ENUNCIADO:
